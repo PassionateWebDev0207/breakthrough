@@ -1,0 +1,26 @@
+@import '../../assets/variables.scss';
+
+.account {
+  // display: grid;
+  // grid-template-columns: 20% auto;
+  // grid-column-gap: 30px;
+  box-sizing: border-box;
+
+  > div {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    // &:first-child {
+    //   @media (max-width: $md) {
+    //     display: none;
+    //   }
+    // }
+  }
+
+  &-content {
+    padding: 5% 5% 8%;
+  }
+
+  // @media (max-width: $md) {
+  //   grid-template-columns: 1fr;
+  // }
+}

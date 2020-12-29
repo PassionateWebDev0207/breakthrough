@@ -1,0 +1,9 @@
+.dashboard-page {
+  width: 100%;
+  height: calc(100vh - 56px);
+  padding-top: 30px;
+  overflow-y: auto;
+  .logs-border {
+    border-left: 1px solid #dbdbdb;
+  }
+}
